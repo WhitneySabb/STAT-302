@@ -1,7 +1,5 @@
 # Author: Sabb, Date: Feb 28 2022, Purpose: Classwork Assignment Answers
 
-# Author: Sabb, Date: Feb 28 2022, Purpose: Classwork Assignment Answe
-
 # Read the csv file in R
 data <- read.csv("C:\\Users\\wsabb\\OneDrive\\Documents\\Spring 2022\\Probability and Statistics 2 - Pawar\\ddf--entities--geo--country.csv",header = TRUE)
 
@@ -34,4 +32,4 @@ heatmap(df, scale = "none", col = col)
 
 # Using library("pheatmap") for generating heatmap for columns latitude and country
 library("pheatmap")
-pheatmap(df,cutree_rows = 4)
+pheatmap(df,cutree_rows = 4,fontsize_row=1)
